@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>click button </title>
+            <script src='app.js'></script>
+    </head>
+    <body>
+        <h1>button</h1>
+        <button onclick="myfunction1()">click me</button>
+        <button onclick="myfunction2()">double click me</button>
+        <!-- <button onmouseover="myfunction3(event)">mouse click me</button> -->
+        <!-- <div onmouseover="sayHi(this,event)" data-id="sjcit">me</div> -->
+        <div id="parent"> 
+            parent
+            <div id="child1">
+                Child1
+            </div>
+                <div id="child2" onclick="sayHi(this)">
+                Child2
+        </div>
+        <input type="text" oninput="sayHi1(this)"/>
+        <div id="changed">
+        </div>
+    </div>
+    </body>
+    </html>
+    
